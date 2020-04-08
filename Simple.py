@@ -1,0 +1,11 @@
+print('Breif explanation about Sounded speed and Silent speed. This is how fast cirtain parts of the video are played. if you want silent parts to be gone, go with a number that iss above 100,000 and set sounded speed to 1. If you want an all silent video, have sounded speed set to a number above 100,000 and silent speed set to 1 etc.')
+
+A = input('Your input file: ')
+B = input('Your output file name: ')
+C = int(input('Sounded speed: '))
+D = int(input('Silent speed: '))
+E = int(input('Frame margin [amount of frames in between silent/sounded clips]'))
+print('jumpcutter.py --input_file ' + str(A) + ' --output_file ' + str(B) + ' --sounded_speed ' + str(C) + ' --silent_speed ' + str(D) + ' --frame_margin ' + str(E) )
+input()
+input()
+input()
